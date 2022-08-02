@@ -289,11 +289,6 @@ header a {
     justify-content: space-between;
 }
 
-.order i {
-    position: relative;
-    left: 164px;
-}
-
 .box {
     display: flex;
     align-items: center;
@@ -698,4 +693,209 @@ form input:active {
 
 .fa-brands:hover {
     opacity: 0.8;
+}
+
+@media only screen and (max-width: 512px) {
+
+    header {
+        width: 100%;
+    }
+
+    .link-one {
+        font-size: 0.75rem;
+    }
+
+    .link-two {
+        font-size: 0.75rem;
+    }
+
+    .header-left ul {
+        display: none;
+    }
+
+    .hero {
+        margin-top: 2rem;
+    }
+
+    .hero-img img {
+        display: none;
+    }
+
+    .hero-text h1 {
+        font-size: 2rem;
+        line-height: 1.2;
+    }
+
+    .hero-text p {
+        font-size: 0.95rem;
+        line-height: 1.2;
+    }
+
+    .companies {
+        margin-top: 4rem;
+    }
+    .companies h1 {
+        font-size: 1.5rem;
+    }
+
+    .companies ul {
+        flex-direction: column;
+        margin-top: 0;
+    }
+
+    .companies ul li {
+        text-align: center;
+        margin-top: 1rem;
+    }
+
+    .services {
+        margin-top: 4rem;
+    }
+
+    .services ul {
+        flex-direction: column;
+    }
+
+    .services ul li {
+        text-align: center;
+    }
+
+    .relaxing {
+        margin-top: 3rem;
+    }
+
+    .relaxing h1 {
+        font-size: 2rem;
+        line-height: 1.1;
+    }
+
+    .relaxing-about-text {
+        margin-top: .5rem;
+    }
+    
+    .relaxing-about-img img {
+        display: none;
+    }
+
+    .place {
+        flex-direction: column;
+        margin-top: 4rem;
+    }
+
+    .place h1 {
+        font-size: 2rem;
+    }
+
+    .place ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    .place ul li {
+        text-align: center;
+        margin-top: 1rem;
+    }
+
+    .place ul li h5 {
+        margin-top: 0;
+        font-size: 1.4rem;
+    }
+
+    .place ul li p {
+        margin-top: 0;
+        font-size: .85rem;
+    }
+
+    .forget {
+        margin-top: 4rem;
+    }
+
+    .forget-text h1 {
+        font-size: 2rem;
+        line-height: 1.1;
+    }
+
+    .forget-text p {
+        font-size: 0.75rem;
+    }
+
+    .forget-text p img {
+        transform: scale(0.8);
+    }
+
+    .forget-main-img {
+        display: none;
+    }
+
+    .automated {
+        margin-top: 4rem;
+    }
+
+    .automated h1 {
+        font-size: 2rem;
+    }
+    
+    .automated p {
+        font-size: .85rem;
+        line-height: 1.4;
+        margin-top: 1rem;
+    }
+
+    .automated ul {
+        flex-direction: column;
+        margin-top: 1rem;
+    }
+    
+    .automated ul li {
+        margin-top: 1rem;
+        text-align: center;
+        width: 100%;
+    }
+    
+    .automated ul li h2 {
+        font-size: 1.1rem;
+    }
+    
+    .automated ul li p {
+        font-size: .75rem;
+    }
+
+    .blog {
+        margin-top: 3rem;
+        padding: 1rem 0;
+    }
+
+    .blog-top h1 {
+        font-size: 1.9rem;
+        line-height: 1.1;
+    }
+
+    .blog-top .link-one {
+        line-height: 1.5;
+    }
+
+    .blog ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .blog ul li {
+        box-shadow: 5px 5px 5.5px rgba(0, 0, 0, 0.05);
+        margin-top: .5rem;
+    }
+
+    .started {
+        margin-top: 2rem;
+        padding: 2rem 0 2rem 2rem;
+    }
+    footer {
+        margin-top: 5rem;
+    }
+
+    .footer-top {
+        flex-direction: column;
+    }
+
+    .footer-top ul {
+        flex-wrap: wrap;
+    }
 }
