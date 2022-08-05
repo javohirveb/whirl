@@ -793,6 +793,7 @@ form input:active {
     .place ul li {
         text-align: center;
         margin-top: 1rem;
+        margin-left: 0;
     }
 
     .place ul li h5 {
